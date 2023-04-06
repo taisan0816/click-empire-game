@@ -116,7 +116,7 @@ class User{
     }
     //リセットボタンを押したときの処理
     resetUserAccount(){
-        this.money = 3000000;
+        this.money = 50000;
         this.days = 0;
         this.yearsOld = 20;
         this.numOfBurger = 0;
@@ -231,7 +231,7 @@ function makeLoginPage(){
     newBtn.addEventListener("click",function(){
         let yourName = container.querySelectorAll("#YourName")[0];
         switchPage(config.loginPage, config.gamePage);
-        let userAccount = new User(yourName.value, 3000000, 0, 20, 0, makeInvestmentArr());
+        let userAccount = new User(yourName.value, 50000, 0, 20, 0, makeInvestmentArr());
         config.gamePage.append(makeGamePage(userAccount));
     })
 
