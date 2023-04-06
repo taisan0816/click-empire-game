@@ -1,0 +1,72 @@
+/*body{
+    background-color: rgb(37, 48, 58);
+}*/
+
+.bg-color{
+    background-color: rgb(37, 48, 58);
+}
+
+.display-none{
+    display: none!important;
+}
+
+.bg-game-page{
+    background-color: rgb(57, 85, 117);
+}
+.bg-body-color{
+    background-color: rgb(37, 48, 58);
+}
+.vh-90{
+    height: 90vh;
+}
+.h-220p{
+    height: 50vh;
+}
+
+.h-95{
+    height: 95%;
+}
+.h-80{
+    height: 80%;
+}
+.h-65{
+    height: 65%;
+}
+.h-20{
+    height: 20%;
+}
+.h-30{
+    height: 30%;
+}
+.h-8rem{
+    height:8rem;
+}
+
+.h50{
+    height: 50%;
+}
+.w-390p{
+    width: 390px;
+}
+
+.w-90{
+    width: 90%;
+}
+
+.item-border{
+    border: solid 5px;
+    border-color: rgb(37, 48, 58);
+    
+}
+
+.item-list:hover{
+    border:solid 3px;
+    border-color: aqua;
+}
+
+
+@media screen and (max-width: 600px) {
+    .media-h{
+        height:30%;
+    }
+}
